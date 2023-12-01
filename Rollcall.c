@@ -24,7 +24,7 @@ int main(){
     printf("Enter the names of students\n");
     for(int i=0; i < num_students;i++){
         printf("Student %d:", i+1);
-        scanf("%s", student_names[i]);
+        numread = scanf("%s", student_names[i]);
         printf("\n");
     }
 
